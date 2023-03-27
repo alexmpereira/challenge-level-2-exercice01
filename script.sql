@@ -6,4 +6,4 @@ create table challenge(
    PRIMARY KEY ( id )
 );
 
-INSERT INTO `challenge2` (`id`, `name`, `log`, `datetime`) VALUES (NULL, 'Parabéns!', 'Voce imprimiu o log de erro', CURRENT_TIMESTAMP);
+INSERT INTO `challenge` (`id`, `name`, `log`, `datetime`) VALUES (NULL, 'Parabéns!', 'Voce imprimiu o log de erro', CURRENT_TIMESTAMP);
